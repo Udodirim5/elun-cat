@@ -5,7 +5,7 @@ import MouseTracker from "./MouseTracker ";
 
 const App = () => {
   const isProduction = import.meta.env.PROD;
-  const basename = isProduction ? "/eluncat" : "/";
+  const basename = isProduction ? "/elun-cat" : "/";
 
   return (
     <>

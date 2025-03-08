@@ -15,4 +15,4 @@ const navLinks = [
 
 export default navLinks;
 
-export const launchDate = new Date("2025-03-19T00:00:00").getTime(); // Set launch date
+export const launchDate = new Date("2025-03-12T00:00:00").getTime(); // Set launch date

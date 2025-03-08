@@ -1,0 +1,46 @@
+/* callToAction Section */
+.callToAction {
+  padding: 60px 20px;
+  background: #111;
+}
+
+.callToAction h2 {
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px var(--color);
+}
+
+
+/* Call-to-Action Button */
+.callToActionBtn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  background: var(--color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--color);
+  transition: 0.3s ease-in-out;
+}  
+
+.callToActionBtn:hover {
+  background: #e100ff;
+  box-shadow: 0 0 20px var(--color);
+}  
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .callToActionBtn  {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  .callToAction h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+

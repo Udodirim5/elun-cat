@@ -1,0 +1,50 @@
+/* Features Section */
+.features {
+  padding: 60px 20px;
+  background: #080808;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px var(--color);
+  margin-bottom: 50px;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.feature {
+  background: #ab17d81c;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  transition: 0.3s ease-in-out;
+}
+
+.feature:hover {
+  box-shadow: 0 0 15px var(--color);
+}
+
+.feature img {
+  width: 60px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px var(--color);
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%;
+  }
+}

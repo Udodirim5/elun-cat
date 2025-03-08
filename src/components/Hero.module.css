@@ -1,0 +1,118 @@
+/* Hero Section */
+.hero {
+  margin-top: 70px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 10px var(--color);
+  position: relative;
+  overflow: hidden;
+}
+
+.circle {
+  width: 617px;
+  height: 617px;
+  background: #ab17d860;
+  opacity: .85;
+  border-radius: 50%;
+  filter: blur(150px);
+  position: absolute;
+  top: 62px;
+  right: -390px;
+}
+
+.circleTwo {
+  width: 617px;
+  height: 617px;
+  background: #6078ff60;
+  opacity: .85;
+  border-radius: 50%;
+  filter: blur(150px);
+  position: absolute;
+  top: -365px;
+  left: -123px;
+}
+
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.hero .neon {
+  color: var(--color);
+  text-shadow: 0 0 15px var(--color);
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  all: unset;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--color);
+  transition: 0.3s ease-in-out;
+}
+
+/* Call-to-Action Button */
+.ctaButton {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  background: var(--color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--color);
+  transition: 0.3s ease-in-out;
+}
+
+.ctaButton:hover {
+  background: var(--color);
+  box-shadow: 0 0 20px var(--color);
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .buttons{
+    margin-top: 10px;
+  }
+  .button,
+  .ctaButton {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+}

@@ -1,0 +1,31 @@
+:root{
+  --color: #ab17d8;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  font-family: 'Oxanium', cursive;
+  outline: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--color);
+  color: #fff;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: #0C0C0C;
+  color: #fff;
+  text-align: center;
+}

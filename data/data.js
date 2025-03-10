@@ -1,3 +1,6 @@
+export const contractAddress = "xxxxxxxx";
+export const launchDate = new Date("2025-03-12T00:12:00").getTime(); // Set launch date
+
 const navLinks = [
   {
     name: "Twitter",
@@ -9,10 +12,9 @@ const navLinks = [
   },
   {
     name: "Buy Now",
-    url: "https://dexscanner.elun.io/",
+    url: `https://dexscanner.com/solana/${contractAddress}`,
   },
 ];
 
 export default navLinks;
 
-export const launchDate = new Date("2025-03-12T00:00:00").getTime(); // Set launch date

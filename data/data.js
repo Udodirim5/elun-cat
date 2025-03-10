@@ -1,5 +1,5 @@
 export const contractAddress = "xxxxxxxx";
-export const launchDate = new Date("2025-03-12T00:12:00").getTime(); // Set launch date
+export const launchDate = new Date("2025-03-12T12:00:00Z").getTime(); // Set launch date to 12 PM UTC
 
 const navLinks = [
   {

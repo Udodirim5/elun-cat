@@ -12,7 +12,7 @@ const navLinks = [
   },
   {
     name: "Buy Now",
-    url: `https://dexscanner.com/solana/${contractAddress}`,
+    url: `https://dexscreener.com/solana/${contractAddress}`,
   },
 ];
 

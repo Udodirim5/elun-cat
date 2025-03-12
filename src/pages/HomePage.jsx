@@ -4,7 +4,7 @@ import About from "../components/About";
 import Features from "../components/Features";
 import CallToAction from "../components/CallToAction";
 import Pic from "../components/Pic";
-import LaunchToast from "../components/CountdownModal";
+import LiveChart from "../components/LiveChart";
 
 const HomePage = () => {
 
@@ -14,6 +14,7 @@ const HomePage = () => {
 
       <Hero />
       <About />
+      <LiveChart />
       <Pic />
       <Features />
       <CallToAction />

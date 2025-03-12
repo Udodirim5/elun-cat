@@ -1,4 +1,5 @@
 export const contractAddress = "D3RPaiSxzVUmUkWSW1R8ar9wrSBXL1xXxfjB6SPY187X";
+export const raydium = `https://raydium.io/swap/?inputMint=sol&outputMint=${contractAddress}`;
 export const launchDate = new Date("2025-03-12T12:00:00Z").getTime(); // Set launch date to 12 PM UTC
 
 const navLinks = [
@@ -12,9 +13,8 @@ const navLinks = [
   },
   {
     name: "Buy Now",
-    url: `https://dexscreener.com/solana/${contractAddress}`,
+    url: raydium,
   },
 ];
 
 export default navLinks;
-

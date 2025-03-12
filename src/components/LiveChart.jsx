@@ -6,6 +6,7 @@ import { contractAddress, launchDate } from "../../data/data";
 
 const LiveChart = () => {
   const [countDown, setCountDown] = useState("");
+  const [remove, setRemove] = useState(launchDate > Date.now());
   const [chartData, setChartData] = useState({
     labels: [],
     datasets: [
@@ -82,7 +83,14 @@ const LiveChart = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const remove = launchDate > Date.now();
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRemove(launchDate > Date.now()); // Update state every second
+    }, 1000);
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
+
   return (
     <div className={styles.chartContainer}>
       <h2>Eluncat Price Chart</h2>
